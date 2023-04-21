@@ -130,5 +130,6 @@ dmypy.json
 .pyre/
 .DS_Store
 manual-sma-trading-experiment/bin
-automated-momentum-trading-experiment/bin
-automated-momentum-trading-experiment/include
+automated-momentum-trading-experiment/include/*
+automated-momentum-trading-experiment/bin/*
+pyvenv.cfg
