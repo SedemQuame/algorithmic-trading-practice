@@ -23,12 +23,13 @@ async def sell_proposal(api, proposal, price):
     return sell
 
 
-async def trading_logic(api, contracts, symbol, proposal_amount, amount, duration):
+async def trading_logic(api, contracts, args):
     # Initialize variables
     last_price = None
     prev_price = None
     last_time = None
     curr_time = None
+    curr_balance = 0
     account = await api.balance()
     intial_balance = account["balance"]["balance"]
 
@@ -44,15 +45,15 @@ async def trading_logic(api, contracts, symbol, proposal_amount, amount, duratio
             # Receive data from Deriv API
             proposal = await api.proposal(
                 {
-                    "proposal": proposal_amount,
-                    "amount": amount,
+                    "proposal": args.proposal,
+                    "amount": args.amount,
                     "barrier": "+0.1",
                     "basis": "payout",
                     "contract_type": "PUT",
                     "currency": "USD",
-                    "duration": duration,
+                    "duration": args.duration,
                     "duration_unit": "s",
-                    "symbol": symbol,
+                    "symbol": args.symbol,
                 }
             )
             if "spot" in proposal["proposal"]:
@@ -71,15 +72,15 @@ async def trading_logic(api, contracts, symbol, proposal_amount, amount, duratio
                         if momentum > 0:
                             call_proposal = await api.proposal(
                                 {
-                                    "proposal": proposal_amount,
-                                    "amount": amount,
+                                    "proposal": args.proposal,
+                                    "amount": args.amount,
                                     "barrier": "+0.10",
                                     "basis": "payout",
                                     "contract_type": "CALL",
                                     "currency": "USD",
-                                    "duration": duration,
+                                    "duration": args.duration,
                                     "duration_unit": "s",
-                                    "symbol": symbol,
+                                    "symbol": args.symbol,
                                     # "limit_order": {
                                     #     "take_profit": (amount / 2),
                                     # }
@@ -102,15 +103,15 @@ async def trading_logic(api, contracts, symbol, proposal_amount, amount, duratio
                         elif momentum < 0:
                             put_proposal = await api.proposal(
                                 {
-                                    "proposal": proposal_amount,
-                                    "amount": amount,
+                                    "proposal": args.proposal,
+                                    "amount": args.amount,
                                     "barrier": "-0.10",
                                     "basis": "payout",
                                     "contract_type": "PUT",
                                     "currency": "USD",
-                                    "duration": duration,
+                                    "duration": args.duration,
                                     "duration_unit": "s",
-                                    "symbol": symbol,
+                                    "symbol": args.symbol,
                                     # "limit_order": {
                                     #     "take_profit": (amount / 2),
                                     # }
@@ -142,6 +143,9 @@ async def trading_logic(api, contracts, symbol, proposal_amount, amount, duratio
                 print("*" * 80 + "\n\n")
             else:
                 logging.info("Current algorithm, is ")
+        
+        if curr_balance > args.target:
+            exit()
         await asyncio.sleep(5)
 
 
@@ -181,14 +185,13 @@ async def risk_management_logic(api, active_contracts):
         await asyncio.sleep(5)
 
 
-async def run_tasks(api, contracts, symbol, proposal_amount, amount, duration):
+async def run_tasks(api, contracts, args):
     risk_task = asyncio.create_task(risk_management_logic(api, contracts))
-    trading_task = asyncio.create_task(trading_logic(api, contracts, symbol, proposal_amount, amount, duration))
+    trading_task = asyncio.create_task(trading_logic(api, contracts, args))
     await asyncio.gather(trading_task, risk_task)
-    # await asyncio.gather(risk_management_logic(api, contracts), trading_logic(api, contracts, symbol, proposal_amount, amount, duration))
 
 
-async def main(symbol, proposal_amount, amount, duration):
+async def main(args):
     # Deriv API endpoint and app_id
     app_id = os.getenv("APP_ID")
     api_token = os.getenv("DERIV_API")
@@ -198,8 +201,8 @@ async def main(symbol, proposal_amount, amount, duration):
     api = DerivAPI(app_id=app_id)
     await api.authorize(api_token)
 
-    print(symbol, proposal_amount, amount, duration)
-    await run_tasks(api, contracts, symbol, proposal_amount, amount, duration)
+    print(args.symbol, args.proposal, args.amount, args.duration)
+    await run_tasks(api, contracts, args)
 
 
 if __name__ == "__main__":
@@ -209,5 +212,6 @@ if __name__ == "__main__":
     parser.add_argument("-p", "--proposal", default=1, type=int)
     parser.add_argument("-a", "--amount", default=2, type=int)
     parser.add_argument("-d", "--duration", default=240, type=int)
+    parser.add_argument("-t", "--target", type=int)
     args = parser.parse_args()
-    asyncio.run(main(args.symbol, args.proposal, args.amount, args.duration))
+    asyncio.run(main(args))
