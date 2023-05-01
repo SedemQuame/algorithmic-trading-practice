@@ -2,76 +2,36 @@ import os
 import logging
 import asyncio
 import argparse
-import pprint
 import collections
+from typing import List, Dict, Any
 from deriv_api import DerivAPI
-import deriv_api.errors
 from dotenv import load_dotenv
 from MomentumTrader import MomentumTrader
+from RiskManagement import RiskManagement
 
 load_dotenv()
 
 
-async def buy_proposal(api, proposal, price):
-    proposal_id = proposal.get("proposal").get("id")
-    buy = await api.buy({"buy": proposal_id, "price": int(price)})
-    return buy
-
-
-async def sell_proposal(api, proposal, price):
-    proposal_id = proposal.get("proposal").get("id")
-    sell = await api.sell({"buy": proposal_id, "price": int(price)})
-    return sell
-
-
-async def run_trading_logic(api, contracts, arguments):
+async def run_trading_logic(api: DerivAPI, contracts: List[Dict[str, Any]], arguments: argparse.Namespace) -> None:
+    """Trading logic, that uses the momentum trading strategy."""
     trader = MomentumTrader(api, arguments, contracts)
     await trader.trading_logic()
 
-async def risk_management_logic(api, active_contracts):
-    while True:
-        print("\n" + "*" * 30)
-        print("Risk logic.")
-        print("*" * 30)
 
-        pprint.pprint(active_contracts)
-        # Check PNL on all active contracts
-        for contract_info in active_contracts:
-            if contract_info['status'] == "active":
-                try:
-                    contract_info = await api.proposal_open_contract()
-                    pnl = contract_info['proposal_open_contract']['profit']
-                    contract_id = contract_info['proposal_open_contract']['contract_id']
-                    req_id = contract_info['req_id']
-                    sell_contract = {
-                        'price': 0,
-                        'req_id': req_id,
-                        'sell': contract_id,
-                    }
-                    # Exit trade if momentum of contract price has approached the calculated_loss
-                    if pnl <= -0.40:
-                        logging.info(
-                            "Risk management:- Sell the contract, when pnl is -0.40.")
-                        await api.sell(sell_contract)
-                    if pnl >= 0.50:
-                        logging.info(
-                            "Risk management:- Sell the contract, when pnl is 0.50.")
-                        await api.sell(sell_contract)
-                except deriv_api.errors.ResponseError as e:
-                    print("Error occurred:", str(e))
-        print("\n")
-        await asyncio.sleep(5)
+async def run_risk_management_logic(api: DerivAPI, contracts: List[Dict[str, Any]]) -> None:
+    risk = RiskManagement(api, contracts)
+    await risk.risk_management_logic()
 
 
-async def run_tasks(api, arguments):
+async def run_tasks(api: DerivAPI, arguments: argparse.Namespace) -> None:
     contracts = collections.deque([])
-    risk_task = asyncio.create_task(risk_management_logic(api, contracts))
+    risk_task = asyncio.create_task(run_risk_management_logic(api, contracts))
     trading_task = asyncio.create_task(
         run_trading_logic(api, contracts, arguments))
     await asyncio.gather(trading_task, risk_task)
 
 
-async def main(arguments):
+async def main(arguments: argparse.Namespace) -> None:
     # Deriv API endpoint and app_id
     app_id = os.getenv("APP_ID")
     api_token = os.getenv("DERIV_API")

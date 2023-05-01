@@ -1,15 +1,16 @@
-import logging
 import pprint
 import asyncio
+import argparse
 import numpy as np
 import pandas as pd
+from typing import List, Dict, Any
 from datetime import datetime
 from deriv_api import DerivAPI
-from dotenv import load_dotenv
 
 
 class MomentumTrader():
-    def __init__(self, api, arguments, contracts) -> None:
+    """Class that implements momentum based strategy."""
+    def __init__(self, api: DerivAPI, arguments: argparse.Namespace, contracts: List[Dict[str, Any]]) -> None:
         self.position = 0
         self.momentum = 3
         self.bar_length = '1min'
@@ -19,15 +20,17 @@ class MomentumTrader():
         self.arguments = arguments
         self.contracts = contracts
         self.data = pd.DataFrame()
+        self.resample_rate = '30S'
 
 
-    async def buy_proposal(self, proposal, price):
+    async def buy_proposal(self, proposal: Dict[str, Any], price: int) -> Dict[str, Any]:
         proposal_id = proposal.get("proposal").get("id")
         buy = await self.api.buy({"buy": proposal_id, "price": int(price)})
         return buy
 
 
-    async def create_call_contract(self, contract_type, spot_price):
+    async def create_call_contract(self, contract_type: str, spot_price: float) -> None:
+        """Creates options contracts, on deriv.com"""
         proposal = await self.api.proposal(
             {
                 "proposal": self.arguments.proposal_amount,
@@ -59,11 +62,12 @@ class MomentumTrader():
             })
 
 
-    def convert_timestamp(self, timestamp):
+    def convert_timestamp(self, timestamp: float) -> str:
         dt = datetime.fromtimestamp(timestamp)
         return dt.strftime('%Y-%m-%d %H:%M:%S.%f')
 
-    async def trading_logic(self):
+
+    async def trading_logic(self) -> None:
         # Initialize variables
         last_price = None
         prev_price = None
@@ -83,7 +87,7 @@ class MomentumTrader():
 
             account = await self.api.balance()
             curr_balance = account["balance"]["balance"]
-            print(f"Current account balance: {curr_balance}")
+            print(f"\nCurrent account balance: {curr_balance}")
             print(f"Initial account balance: {intial_balance}")
 
             proposal = await self.api.proposal(
@@ -106,8 +110,8 @@ class MomentumTrader():
                 row = pd.DataFrame(
                     {'bid': spot_price}, index=[pd.Timestamp(self.convert_timestamp(spot_time))])
                 self.raw_data = self.raw_data._append(row)
-                
-                self.data = self.raw_data.resample('10S').last().ffill().iloc[:-1]
+                self.data = self.raw_data.resample(
+                    self.resample_rate).last().ffill().iloc[:-1]
                 self.data['mid'] = self.data.mean(axis=1)
                 self.data['returns'] = np.log(
                     self.data['mid'] / self.data['mid'].shift(1))
@@ -130,7 +134,7 @@ class MomentumTrader():
 
             prev_price = last_price
             last_price = spot_price
-            print(f"Previous price: {prev_price}, Last price: {last_price}")
+            print(f"\nPrevious price: {prev_price}, Last price: {last_price}")
             print(line_str + "\n")
 
             if curr_balance > intial_balance + self.arguments.target:
