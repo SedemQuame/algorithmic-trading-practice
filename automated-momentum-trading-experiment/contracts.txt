@@ -1,0 +1,1016 @@
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100}]
+Last time: 2023-04-27 20:29:42, Current time: 2023-04-27 20:30:22
+Previous price: 5936.3, Last price: 5935.58
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 9.63
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100}]
+Last time: 2023-04-27 20:29:42, Current time: 2023-04-27 20:30:26
+Previous price: 5935.58, Last price: 5936.17
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 10.75
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100}]
+Last time: 2023-04-27 20:29:42, Current time: 2023-04-27 20:30:34
+Previous price: 5936.17, Last price: 5937.01
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 10.75
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100}]
+Last time: 2023-04-27 20:29:42, Current time: 2023-04-27 20:30:38
+Previous price: 5937.01, Last price: 5934.59
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 10.75
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:30:44
+Previous price: 5934.59, Last price: 5933.7
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 9.73
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:30:50
+Previous price: 5933.7, Last price: 5933.61
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 9.73
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:30:56
+Previous price: 5933.61, Last price: 5931.49
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 9.73
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:31:02
+Previous price: 5931.49, Last price: 5929.63
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 10.92
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:31:08
+Previous price: 5929.63, Last price: 5931.76
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 10.92
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:31:14
+Previous price: 5931.76, Last price: 5930.5
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 10.92
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:31:20
+Previous price: 5930.5, Last price: 5930.93
+********************************************************************************
+
+
+Trading logic.
+******************************
+Current account balance: 10.92
+Trading:- Current contracts.
+[{'buy': {'balance_after': 9.13,
+          'buy_price': 1.02,
+          'contract_id': 50590404041,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627132,
+          'shortcode': 'CALL_R_100_2.00_1682627132_1682627372_S10P_0',
+          'start_time': 1682627132,
+          'transaction_id': 101654209361},
+  'echo_req': {'buy': '28017c47-2ba1-c16b-6e72-19a658fe50b1',
+               'price': 5946,
+               'req_id': 28},
+  'msg_type': 'buy',
+  'req_id': 28},
+ {'buy': {'balance_after': 9.2,
+          'buy_price': 1.02,
+          'contract_id': 50590422101,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627195,
+          'shortcode': 'PUT_R_100_2.00_1682627195_1682627435_S-10P_0',
+          'start_time': 1682627195,
+          'transaction_id': 101654246941},
+  'echo_req': {'buy': '10e8005d-f970-9438-c119-8cc568cfbb73',
+               'price': 5945,
+               'req_id': 52},
+  'msg_type': 'buy',
+  'req_id': 52},
+ {'buy': {'balance_after': 9.4,
+          'buy_price': 1.02,
+          'contract_id': 50590439481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly higher '
+                      'than entry spot plus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627258,
+          'shortcode': 'CALL_R_100_2.00_1682627258_1682627498_S10P_0',
+          'start_time': 1682627258,
+          'transaction_id': 101654284821},
+  'echo_req': {'buy': 'bb0ccb88-662e-10b3-38bf-1b4150df37e4',
+               'price': 5941,
+               'req_id': 76},
+  'msg_type': 'buy',
+  'req_id': 76},
+ {'buy': {'balance_after': 8.38,
+          'buy_price': 1.02,
+          'contract_id': 50590458001,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627320,
+          'shortcode': 'PUT_R_100_2.00_1682627320_1682627560_S-10P_0',
+          'start_time': 1682627320,
+          'transaction_id': 101654323941},
+  'echo_req': {'buy': 'ee28abc5-556d-e4b3-cb2b-6deccc5171dd',
+               'price': 5941,
+               'req_id': 100},
+  'msg_type': 'buy',
+  'req_id': 100},
+ {'buy': {'balance_after': 9.73,
+          'buy_price': 1.02,
+          'contract_id': 50590495481,
+          'longcode': 'Win payout if Volatility 100 Index is strictly lower '
+                      'than entry spot minus 0.10 at 4 minutes after contract '
+                      'start time.',
+          'payout': 2,
+          'purchase_time': 1682627446,
+          'shortcode': 'PUT_R_100_2.00_1682627446_1682627686_S-10P_0',
+          'start_time': 1682627446,
+          'transaction_id': 101654403981},
+  'echo_req': {'buy': 'c0b0ceda-7dbf-347f-d9ae-1f0869fc1bac',
+               'price': 5933,
+               'req_id': 147},
+  'msg_type': 'buy',
+  'req_id': 147}]
+Last time: 2023-04-27 20:30:44, Current time: 2023-04-27 20:31:26
+Previous price: 5930.93, Last price: 5927.66
+********************************************************************************
+
+
+
+{'echo_req': {'proposal_open_contract': 1, 'req_id': 43},
+ 'msg_type': 'proposal_open_contract',
+ 'proposal_open_contract': {'account_id': 54255981,
+                            'barrier': '5946.92',
+                            'barrier_count': 1,
+                            'bid_price': 1.07,
+                            'buy_price': 1.02,
+                            'contract_id': 50590964521,
+                            'contract_type': 'CALL',
+                            'currency': 'USD',
+                            'current_spot': 5948.95,
+                            'current_spot_display_value': '5948.95',
+                            'current_spot_time': 1682628984,
+                            'date_expiry': 1682629220,
+                            'date_settlement': 1682629220,
+                            'date_start': 1682628980,
+                            'display_name': 'Volatility 100 Index',
+                            'entry_spot': 5946.82,
+                            'entry_spot_display_value': '5946.82',
+                            'entry_tick': 5946.82,
+                            'entry_tick_display_value': '5946.82',
+                            'entry_tick_time': 1682628982,
+                            'expiry_time': 1682629220,
+                            'is_expired': 0,
+                            'is_forward_starting': 0,
+                            'is_intraday': 1,
+                            'is_path_dependent': 0,
+                            'is_settleable': 0,
+                            'is_sold': 0,
+                            'is_valid_to_cancel': 0,
+                            'is_valid_to_sell': 1,
+                            'longcode': 'Win payout if Volatility 100 Index is '
+                                        'strictly higher than entry spot plus '
+                                        '0.10 at 4 minutes after contract '
+                                        'start time.',
+                            'payout': 2,
+                            'profit': 0.05,
+                            'profit_percentage': 4.9,
+                            'purchase_time': 1682628980,
+                            'shortcode': 'CALL_R_100_2.00_1682628980_1682629220_S10P_0',
+                            'status': 'open',
+                            'transaction_ids': {'buy': 101655383621},
+                            'underlying': 'R_100'},
+ 'req_id': 43}

@@ -1,25 +1,53 @@
-Experiment Readme: Algo Trading using SMA for 15-minute timeframe for Volatility Indices on the Deriv Platform
+# Automated Momentum Trading Experiment
 
-Overview:
-This experiment aims to implement an algorithmic trading strategy using the Simple Moving Average (SMA) indicator for volatility indices on the Deriv platform, for a 15-minute timeframe. The strategy involves buying and selling a volatility index based on the crossover of the 15-minute SMA and the price of the index. The experiment will be conducted using the Deriv API and Python as the programming language.
+This is a Python script for implementing a momentum trading strategy using the Deriv.com API. The script buys and sells assets based on their recent performance, as measured by price changes over a specified time frame. The strategy also includes risk management logic to help prevent large losses.
 
-Data:
-Data will be obtained through the Deriv API which provides real-time and historical data for various volatility indices, including the V10, V50, and V100. The data should include the open, high, low, and close prices of the volatility index for each 15-minute interval.
+## Dependencies
 
-Dependencies:
-Python 3.7 or higher
-Pandas
-Matplotlib
-Deriv API
+Before running the script, you'll need to install the following dependencies:
 
+- requests
+- numpy
+- pandas
+- deriv-api
 
-Strategy:
-The strategy is to buy a volatility index when the 15-minute SMA crosses above the price of the index and sell the index when the 15-minute SMA crosses below the price of the index.
-The strategy involves the following steps:
-Connect to the Deriv API to retrieve real-time and historical data for the desired volatility index.
-Calculate the 15-minute SMA using the close prices of the volatility index.
-Buy the volatility index when the current price of the index is greater than the 15-minute SMA and the previous price of the index is less than or equal to the 15-minute SMA.
-Sell the volatility index when the current price of the index is less than the 15-minute SMA and the previous price of the index is greater than or equal to the 15-minute SMA.
-Monitor the performance of the strategy and adjust parameters such as the SMA period and trading threshold as necessary.
+You can install them all at once using the requirements.txt file with the following command:
 
-Note: Trading on volatility indices involves a high degree of risk and should only be attempted by experienced traders with a thorough understanding of the market and its volatility. It is important to practice proper risk management techniques and to never invest more than you can afford to lose.
+```
+pip install -r requirements.txt
+```
+
+# Running the Script
+
+Run the code using the following command
+
+```
+python main.py -target <profit amount before closing trade> -s <symbol> -p <amount for buying proposal> -a <amount to realize on > -d <duration for holding contract>
+```
+
+Make sure to replace the placeholders (<profit amount before closing trade>, <symbol>, etc.) with the appropriate values for your trading strategy.
+
+# Deploying the code
+
+- Create an AWS account, and create an EC2 instance “A t3 micro instance should be sufficient.”
+- Login to the provisioned EC2 instance.
+- Clone the GitHub repository containing the momentum trading code onto the EC2 instance.
+  \*Install the necessary dependencies using the requirements.txt file provided in the repository.
+  This can be done using the `pip -r install requirements.txt`.
+- Run the momentum trading script using the following command
+  python main.py -target <profit amount before closing trade> -s <symbol> -p <amount for buying proposal> -a <amount to realize on > -d <duration for holding contract>
+
+Additional Notes
+This script is designed for educational purposes only and should not be used for actual trading without extensive testing and modification.
+For more information on how the momentum trading strategy works and how the script is implemented, please refer to the blog post linked in the repository's description.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -29,7 +29,7 @@ class MomentumTrader():
         return buy
 
 
-    async def create_call_contract(self, contract_type: str, spot_price: float) -> None:
+    async def create_options_contract(self, contract_type: str, spot_price: float) -> None:
         """Creates options contracts, on deriv.com"""
         proposal = await self.api.proposal(
             {
@@ -125,11 +125,11 @@ class MomentumTrader():
                     self.min_length += 1
                     if self.data['position'].iloc[-1] == 1:
                         if self.position == 0 or self.position == -1:
-                            await self.create_call_contract("CALL", spot_price)
+                            await self.create_options_contract("CALL", spot_price)
                         self.position = 1
                     elif self.data['position'].iloc[-1] == -1:
                         if self.position == 0 or self.position == 1:
-                            await self.create_call_contract("PUT", spot_price)
+                            await self.create_options_contract("PUT", spot_price)
                         self.position = -1
 
             prev_price = last_price

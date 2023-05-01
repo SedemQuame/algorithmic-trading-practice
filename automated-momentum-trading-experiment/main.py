@@ -50,7 +50,7 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--symbol", default="R_100", choices=['1HZ10V', 'R_10', '1HZ25V', 'R_25', '1HZ50V', 'R_50', '1HZ75V', 'R_75', '1HZ100V', 'R_100', '1HZ150V', '1HZ250V', 'OTC_DJI'])
     parser.add_argument("-p", "--proposal_amount", default=1, type=int)
     parser.add_argument("-a", "--amount", default=2, type=int)
-    parser.add_argument("-d", "--duration", default=240, type=int)
+    parser.add_argument("-d", "--duration", default=120, type=int)
     parser.add_argument("-t", "--target", default=2, type=int)
     args = parser.parse_args()
     asyncio.run(main(args))
