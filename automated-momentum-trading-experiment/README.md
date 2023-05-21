@@ -22,7 +22,7 @@ pip install -r requirements.txt
 Run the code using the following command
 
 ```
-python main.py -target <profit amount before closing trade> -s <symbol> -p <amount for buying proposal> -a <amount to realize on > -d <duration for holding contract>
+python main.py -t <profit amount before closing trade> -s <symbol> -p <amount for buying proposal> -a <amount to realize on > -d <duration for holding contract>
 ```
 
 Make sure to replace the placeholders (<profit amount before closing trade>, <symbol>, etc.) with the appropriate values for your trading strategy.
