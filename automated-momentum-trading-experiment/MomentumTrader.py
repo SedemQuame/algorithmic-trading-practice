@@ -1,3 +1,4 @@
+import logging
 import pprint
 import asyncio
 import argparse
@@ -7,6 +8,30 @@ from typing import List, Dict, Any
 from datetime import datetime
 from deriv_api import DerivAPI
 
+# Set up logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# Remove all handlers from the root logger
+for handler in logging.root.handlers[:]:
+    logging.root.removeHandler(handler)
+
+# Create handlers
+c_handler = logging.StreamHandler()
+f_handler = logging.FileHandler('./logs/momentum-trader-log.txt')
+c_handler.setLevel(logging.INFO)
+f_handler.setLevel(logging.INFO)
+
+# Create formatters and add it to handlers
+c_format = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+f_format = logging.Formatter(
+    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+c_handler.setFormatter(c_format)
+f_handler.setFormatter(f_format)
+
+# Add handlers to the logger
+logger.addHandler(c_handler)
+logger.addHandler(f_handler)
 
 class MomentumTrader():
     """Class that implements momentum based strategy."""
@@ -49,8 +74,9 @@ class MomentumTrader():
             and "proposal" in proposal
         ):
             # Place buy order
-            print(f"Trading:- Buying {contract_type} contract @ {spot_price}")
+            logger.info(f"Trading:- Buying {contract_type} contract @ {spot_price}")
             new_contract = await self.buy_proposal(proposal, spot_price)
+            logger.info(new_contract)
             self.contracts.append({
                 'contract_id': new_contract["buy"]["contract_id"],
                 'pnl': 0,
@@ -78,17 +104,17 @@ class MomentumTrader():
 
         # Momentum strategy parameters
         while True:
-            print("\n" + line_str)
-            print("Trading logic.")
-            print(line_str)
+            logger.info("\n" + line_str)
+            logger.info("Trading logic.")
+            logger.info(line_str)
 
-            print("Raw data.")
+            logger.info("Raw data.")
             pprint.pprint(self.raw_data)
 
             account = await self.api.balance()
             curr_balance = account["balance"]["balance"]
-            print(f"\nCurrent account balance: {curr_balance}")
-            print(f"Initial account balance: {intial_balance}")
+            logger.info(f"\nCurrent account balance: {curr_balance}")
+            logger.info(f"Initial account balance: {intial_balance}")
 
             proposal = await self.api.proposal(
                 {
@@ -118,7 +144,7 @@ class MomentumTrader():
                 self.data['position'] = np.sign(
                     self.data['returns'].rolling(self.momentum).mean())
 
-                print("\nData")
+                logger.info("\nData")
                 pprint.pprint(self.data)
 
                 if len(self.data) > self.min_length:
@@ -134,10 +160,10 @@ class MomentumTrader():
 
             prev_price = last_price
             last_price = spot_price
-            print(f"\nPrevious price: {prev_price}, Last price: {last_price}")
-            print(line_str + "\n")
+            logger.info(f"\nPrevious price: {prev_price}, Last price: {last_price}")
+            logger.info(line_str + "\n")
 
             if curr_balance > intial_balance + self.arguments.target:
-                print(f"Reached targeted amount.\nExiting script.")
+                logger.info(f"Reached targeted amount.\nExiting script.")
                 exit()
-            await asyncio.sleep(5)
+            await asyncio.sleep(15)

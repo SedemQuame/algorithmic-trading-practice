@@ -1,0 +1,257 @@
+2023-07-09 22:14:17,350 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:14:17,352 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:14:17,352 - MomentumTrader - INFO - ******************************
+2023-07-09 22:14:17,352 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:14:17,670 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:14:17,670 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:14:17,937 - MomentumTrader - INFO - 
+Previous price: None, Last price: 2630.36
+2023-07-09 22:14:17,938 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:14:32,939 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:14:32,940 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:14:32,940 - MomentumTrader - INFO - ******************************
+2023-07-09 22:14:32,940 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:14:33,263 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:14:33,263 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:14:33,572 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:14:33,573 - MomentumTrader - INFO - 
+Previous price: 2630.36, Last price: 2631.01
+2023-07-09 22:14:33,573 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:14:48,575 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:14:48,575 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:14:48,579 - MomentumTrader - INFO - ******************************
+2023-07-09 22:14:48,579 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:14:48,888 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:14:48,888 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:14:49,170 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:14:49,171 - MomentumTrader - INFO - 
+Previous price: 2631.01, Last price: 2633.96
+2023-07-09 22:14:49,171 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:15:04,174 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:15:04,175 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:15:04,175 - MomentumTrader - INFO - ******************************
+2023-07-09 22:15:04,175 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:15:04,575 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:15:04,575 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:15:04,871 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:15:04,880 - MomentumTrader - INFO - 
+Previous price: 2633.96, Last price: 2636.04
+2023-07-09 22:15:04,881 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:19:17,508 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:19:17,510 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:19:17,510 - MomentumTrader - INFO - ******************************
+2023-07-09 22:19:17,511 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:19:17,784 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:19:17,784 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:19:18,234 - MomentumTrader - INFO - 
+Previous price: None, Last price: 2633.64
+2023-07-09 22:19:18,234 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:19:33,236 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:19:33,238 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:19:33,238 - MomentumTrader - INFO - ******************************
+2023-07-09 22:19:33,238 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:19:33,514 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:19:33,519 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:19:33,835 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:19:33,836 - MomentumTrader - INFO - 
+Previous price: 2633.64, Last price: 2632.92
+2023-07-09 22:19:33,836 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:19:48,837 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:19:48,838 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:19:48,839 - MomentumTrader - INFO - ******************************
+2023-07-09 22:19:48,839 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:19:49,155 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:19:49,155 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:19:49,445 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:19:49,452 - MomentumTrader - INFO - 
+Previous price: 2632.92, Last price: 2635.79
+2023-07-09 22:19:49,452 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:20:04,453 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:20:04,456 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:20:04,456 - MomentumTrader - INFO - ******************************
+2023-07-09 22:20:04,456 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:20:04,756 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:20:04,757 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:20:05,103 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:20:05,114 - MomentumTrader - INFO - 
+Previous price: 2635.79, Last price: 2636.57
+2023-07-09 22:20:05,114 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:20:20,117 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:20:20,121 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:20:20,121 - MomentumTrader - INFO - ******************************
+2023-07-09 22:20:20,121 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:20:20,405 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:20:20,405 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:20:20,674 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:20:20,683 - MomentumTrader - INFO - 
+Previous price: 2636.57, Last price: 2639.68
+2023-07-09 22:20:20,685 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:20:35,687 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:20:35,687 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:20:35,688 - MomentumTrader - INFO - ******************************
+2023-07-09 22:20:35,690 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:20:36,213 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:20:36,214 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:20:36,482 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:20:36,492 - MomentumTrader - INFO - 
+Previous price: 2639.68, Last price: 2640.17
+2023-07-09 22:20:36,493 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:20:51,495 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:20:51,497 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:20:51,498 - MomentumTrader - INFO - ******************************
+2023-07-09 22:20:51,498 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:20:51,787 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:20:51,788 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:20:52,226 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:20:52,233 - MomentumTrader - INFO - 
+Previous price: 2640.17, Last price: 2642.67
+2023-07-09 22:20:52,233 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:21:07,235 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:21:07,240 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:21:07,240 - MomentumTrader - INFO - ******************************
+2023-07-09 22:21:07,240 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:21:07,544 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:21:07,544 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:21:07,822 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:21:07,827 - MomentumTrader - INFO - 
+Previous price: 2642.67, Last price: 2642.66
+2023-07-09 22:21:07,827 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:21:22,828 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:21:22,830 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:21:22,830 - MomentumTrader - INFO - ******************************
+2023-07-09 22:21:22,830 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:21:23,121 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:21:23,122 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:21:23,412 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:21:23,418 - MomentumTrader - INFO - 
+Previous price: 2642.66, Last price: 2641.39
+2023-07-09 22:21:23,418 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:21:38,420 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:21:38,423 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:21:38,423 - MomentumTrader - INFO - ******************************
+2023-07-09 22:21:38,423 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:21:38,712 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:21:38,713 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:21:39,184 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:21:39,194 - MomentumTrader - INFO - 
+Previous price: 2641.39, Last price: 2643.63
+2023-07-09 22:21:39,194 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:21:54,197 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:21:54,201 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:21:54,201 - MomentumTrader - INFO - ******************************
+2023-07-09 22:21:54,202 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:21:54,472 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:21:54,472 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:21:54,736 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:21:54,746 - MomentumTrader - INFO - 
+Previous price: 2643.63, Last price: 2643.2
+2023-07-09 22:21:54,746 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:22:09,749 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:22:09,755 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:22:09,756 - MomentumTrader - INFO - ******************************
+2023-07-09 22:22:09,756 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:22:10,231 - MomentumTrader - INFO - 
+Current account balance: 13.66
+2023-07-09 22:22:10,232 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:22:10,480 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:22:10,742 - MomentumTrader - INFO - Trading:- Buying CALL contract @ 2638.99
+2023-07-09 22:22:11,187 - MomentumTrader - INFO - {'buy': {'balance_after': 11.12, 'buy_price': 2.54, 'contract_id': 52265456121, 'longcode': 'Win payout if Volatility 100 Index is strictly higher than entry spot plus 0.10 at 12 minutes after contract start time.', 'payout': 5, 'purchase_time': 1688941331, 'shortcode': 'CALL_R_100_5.00_1688941331_1688942051_S10P_0', 'start_time': 1688941331, 'transaction_id': 105168641301}, 'echo_req': {'buy': '674e3e6a-a9d1-d349-f59f-97d90022a2bc', 'price': 2638, 'req_id': 28}, 'msg_type': 'buy', 'req_id': 28}
+2023-07-09 22:22:11,189 - MomentumTrader - INFO - 
+Previous price: 2643.2, Last price: 2638.99
+2023-07-09 22:22:11,189 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:22:26,193 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:22:26,194 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:22:26,194 - MomentumTrader - INFO - ******************************
+2023-07-09 22:22:26,195 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:22:26,483 - MomentumTrader - INFO - 
+Current account balance: 13.38
+2023-07-09 22:22:26,484 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:22:26,741 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:22:26,751 - MomentumTrader - INFO - 
+Previous price: 2638.99, Last price: 2637.63
+2023-07-09 22:22:26,751 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:22:41,752 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:22:41,755 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:22:41,755 - MomentumTrader - INFO - ******************************
+2023-07-09 22:22:41,755 - MomentumTrader - INFO - Raw data.
+2023-07-09 22:22:42,249 - MomentumTrader - INFO - 
+Current account balance: 13.38
+2023-07-09 22:22:42,249 - MomentumTrader - INFO - Initial account balance: 13.66
+2023-07-09 22:22:42,530 - MomentumTrader - INFO - 
+Data
+2023-07-09 22:22:42,807 - MomentumTrader - INFO - Trading:- Buying PUT contract @ 2638.61
+2023-07-09 22:22:43,192 - MomentumTrader - INFO - {'buy': {'balance_after': 10.8, 'buy_price': 2.58, 'contract_id': 52265462101, 'longcode': 'Win payout if Volatility 100 Index is strictly lower than entry spot plus 0.10 at 12 minutes after contract start time.', 'payout': 5, 'purchase_time': 1688941363, 'shortcode': 'PUT_R_100_5.00_1688941363_1688942083_S10P_0', 'start_time': 1688941363, 'transaction_id': 105168653301}, 'echo_req': {'buy': '8a118500-40ea-7ce5-1cc7-133157b4d398', 'price': 2638, 'req_id': 40}, 'msg_type': 'buy', 'req_id': 40}
+2023-07-09 22:22:43,192 - MomentumTrader - INFO - 
+Previous price: 2637.63, Last price: 2638.61
+2023-07-09 22:22:43,192 - MomentumTrader - INFO - ******************************
+
+2023-07-09 22:22:58,193 - MomentumTrader - INFO - 
+******************************
+2023-07-09 22:22:58,193 - MomentumTrader - INFO - Trading logic.
+2023-07-09 22:22:58,194 - MomentumTrader - INFO - ******************************
+2023-07-09 22:22:58,194 - MomentumTrader - INFO - Raw data.

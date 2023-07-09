@@ -39,8 +39,6 @@ async def main(arguments: argparse.Namespace) -> None:
     # Connect to Deriv API
     api = DerivAPI(app_id=app_id)
     await api.authorize(api_token)
-
-    print(arguments.symbol, arguments.proposal_amount, arguments.amount, arguments.duration)
     await run_tasks(api, args)
 
 
@@ -49,8 +47,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--symbol", default="R_100", choices=['1HZ10V', 'R_10', '1HZ25V', 'R_25', '1HZ50V', 'R_50', '1HZ75V', 'R_75', '1HZ100V', 'R_100', '1HZ150V', '1HZ250V', 'OTC_DJI'])
     parser.add_argument("-p", "--proposal_amount", default=1, type=int)
-    parser.add_argument("-a", "--amount", default=2, type=int)
-    parser.add_argument("-d", "--duration", default=120, type=int)
-    parser.add_argument("-t", "--target", default=2, type=int)
+    # the default amount to by a proposal at.
+    parser.add_argument("-a", "--amount", default=10, type=int)
+    # the default run time for a contract should be 1 full day (intraday trading)
+    parser.add_argument("-d", "--duration", default=86400, type=int)
+    # target to take profits at.
+    parser.add_argument("-t", "--target", default=4, type=int)
+    # run the script in demo mode.
+    parser.add_argument("-e", "--demo", action='store_true')
     args = parser.parse_args()
     asyncio.run(main(args))
